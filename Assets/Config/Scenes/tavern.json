@@ -1,0 +1,93 @@
+{
+  "sceneId": "tavern",
+  "sceneName": "The Rusty Tankard",
+  "description": "A dimly lit tavern. The air is thick with smoke and the smell of spilled ale. Somewhere in the back, a bard is butchering a ballad about a dragon and a milkmaid.",
+  "background": null,
+  "music": null,
+  "gridWidth": 16,
+  "gridHeight": 10,
+  "playerStart": { "x": 2, "y": 5 },
+  "items": [
+    {
+      "itemId": "pale_ale",
+      "name": "Pale Ale",
+      "description": "A pale blonde ale in a dented pewter mug. It's flat and lukewarm, but at least it's wet. The foam has long since given up the will to live.",
+      "position": { "x": 6, "y": 4 },
+      "color": { "r": 0.9, "g": 0.8, "b": 0.3 },
+      "takeable": true,
+      "usable": false,
+      "combinable": false,
+      "sprite": null,
+      "requiredAbility": null
+    },
+    {
+      "itemId": "stew",
+      "name": "Dog Meat Stew",
+      "description": "A steaming plate of stew. The chunks of meat look questionable at best. The barkeep swears it's 'premium game meat.' You have doubts.",
+      "position": { "x": 9, "y": 5 },
+      "color": { "r": 0.6, "g": 0.3, "b": 0.1 },
+      "takeable": true,
+      "usable": false,
+      "combinable": false,
+      "sprite": null,
+      "requiredAbility": null
+    },
+    {
+      "itemId": "rusty_key",
+      "name": "Rusty Key",
+      "description": "A small rusty key. It looks like it might fit a padlock, or possibly a very tiny door for very tiny people.",
+      "position": { "x": 12, "y": 2 },
+      "color": { "r": 0.7, "g": 0.5, "b": 0.2 },
+      "takeable": true,
+      "usable": false,
+      "combinable": false,
+      "sprite": null,
+      "requiredAbility": null
+    },
+    {
+      "itemId": "locked_chest",
+      "name": "Locked Chest",
+      "description": "A sturdy wooden chest bound with iron bands. A heavy padlock keeps it firmly shut. The lock looks pickable... if you know what you're doing.",
+      "position": { "x": 13, "y": 7 },
+      "color": { "r": 0.5, "g": 0.3, "b": 0.15 },
+      "takeable": false,
+      "usable": false,
+      "combinable": false,
+      "sprite": null,
+      "requiredAbility": "pick_lock"
+    },
+    {
+      "itemId": "candle",
+      "name": "Tallow Candle",
+      "description": "A half-melted tallow candle. It smells faintly of rendered fat and regret. Still, it gives off a warm glow.",
+      "position": { "x": 4, "y": 2 },
+      "color": { "r": 0.95, "g": 0.9, "b": 0.7 },
+      "takeable": true,
+      "usable": false,
+      "combinable": false,
+      "sprite": null,
+      "requiredAbility": null
+    },
+    {
+      "itemId": "torn_map",
+      "name": "Torn Map Fragment",
+      "description": "A torn piece of parchment with faded ink markings. It appears to show part of a mountain range and an 'X' that might mark... something. Classic.",
+      "position": { "x": 8, "y": 8 },
+      "color": { "r": 0.85, "g": 0.8, "b": 0.6 },
+      "takeable": true,
+      "usable": false,
+      "combinable": false,
+      "sprite": null,
+      "requiredAbility": null
+    }
+  ],
+  "exits": [
+    {
+      "position": { "x": 15, "y": 5 },
+      "targetScene": "village_square",
+      "targetPosition": { "x": 0, "y": 5 },
+      "description": "The tavern door leads out to the village square."
+    }
+  ],
+  "script": null
+}

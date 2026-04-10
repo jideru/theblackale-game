@@ -1,0 +1,57 @@
+{
+  "sceneId": "village_square",
+  "sceneName": "Grimhold Village Square",
+  "description": "The village square of Grimhold. A weathered fountain stands at the center, long since dry. Market stalls line the edges, though most have seen better days.",
+  "background": null,
+  "music": null,
+  "gridWidth": 16,
+  "gridHeight": 10,
+  "playerStart": { "x": 0, "y": 5 },
+  "items": [
+    {
+      "itemId": "old_notice",
+      "name": "Faded Notice",
+      "description": "A faded notice pinned to the fountain. It reads: 'WANTED: Brave souls to seek the lost Brewmaster's Vault. Reward: Eternal glory and all the ale you can drink.' Someone has scrawled 'GOOD LUCK' across the bottom in red ink.",
+      "position": { "x": 7, "y": 4 },
+      "color": { "r": 0.85, "g": 0.82, "b": 0.7 },
+      "takeable": true,
+      "usable": false,
+      "combinable": false,
+      "sprite": null,
+      "requiredAbility": null
+    },
+    {
+      "itemId": "loose_cobblestone",
+      "name": "Loose Cobblestone",
+      "description": "One of the cobblestones is loose. It wobbles when you step on it. There might be something underneath, but you'd need considerable strength to pry it up.",
+      "position": { "x": 10, "y": 7 },
+      "color": { "r": 0.5, "g": 0.5, "b": 0.55 },
+      "takeable": false,
+      "usable": false,
+      "combinable": false,
+      "sprite": null,
+      "requiredAbility": "force_open"
+    },
+    {
+      "itemId": "dried_herbs",
+      "name": "Dried Herbs",
+      "description": "A bundle of dried herbs hanging from an abandoned market stall. They smell faintly of rosemary and something magical. A druid would know more.",
+      "position": { "x": 3, "y": 2 },
+      "color": { "r": 0.2, "g": 0.6, "b": 0.3 },
+      "takeable": true,
+      "usable": false,
+      "combinable": false,
+      "sprite": null,
+      "requiredAbility": null
+    }
+  ],
+  "exits": [
+    {
+      "position": { "x": 0, "y": 5 },
+      "targetScene": "tavern",
+      "targetPosition": { "x": 15, "y": 5 },
+      "description": "The door to The Rusty Tankard tavern."
+    }
+  ],
+  "script": null
+}
