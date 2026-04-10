@@ -19,7 +19,7 @@ namespace BlackAle.UI
 
         private void Start()
         {
-            _itemInteraction = FindObjectOfType<ItemInteraction>();
+            _itemInteraction = FindFirstObjectByType<ItemInteraction>();
 
             if (closeButton != null)
                 closeButton.onClick.AddListener(Hide);

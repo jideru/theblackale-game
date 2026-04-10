@@ -39,7 +39,7 @@ namespace BlackAle.UI
             canvasObj.AddComponent<GraphicRaycaster>();
 
             // EventSystem
-            if (FindObjectOfType<UnityEngine.EventSystems.EventSystem>() == null)
+            if (FindFirstObjectByType<UnityEngine.EventSystems.EventSystem>() == null)
             {
                 GameObject eventSystem = new GameObject("EventSystem");
                 eventSystem.AddComponent<UnityEngine.EventSystems.EventSystem>();
